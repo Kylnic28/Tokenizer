@@ -15,14 +15,12 @@
             get
             {
                 if (index < 0 || index > Length)
-                    throw new IndexOutOfRangeException($"Index {index} is out of range. Size of this tokenizer is {Size}!");
+                    throw new IndexOutOfRangeException($"Index {index} is out of range. Length of this tokenizer is {Length}!");
 
        
                 return _Array.GetValue(index);
             }
         }
-
-
 
         /// <summary>
         /// Convert this tokenizer into a enumerable.
@@ -34,7 +32,6 @@
         /// Return the size of this tokenizer.
         /// </summary>
         public int Length => _Array.Length;
-       
 
         /// <summary>
         /// Check if this tokenizer is empty or not. 
