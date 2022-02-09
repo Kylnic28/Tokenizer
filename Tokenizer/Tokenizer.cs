@@ -3,10 +3,41 @@ using System.Collections.Generic;
 
 namespace Sharp.Tokenizer
 {
+    [Flags]
+    public enum TokenizerFlags
+    {
+        /// <summary>
+        /// Do nothing.
+        /// </summary>
+        None = StringSplitOptions.None,
+
+        /// <summary>
+        /// Remove empty entries.
+        /// </summary>
+        RemoveEmptyEntries = StringSplitOptions.RemoveEmptyEntries,
+
+        /// <summary>
+        /// Trim white-space characters from each substring in the result.
+        /// </summary>
+        TrimEntries = StringSplitOptions.TrimEntries,
+    }
     public class Tokenizer
     {
         private Array _Array { get; init; }
-        public Tokenizer(string content, char separator) => _Array = content.Split(separator);
+
+        /// <summary>
+        /// Initialize a new Tokenizer class.
+        /// </summary>
+        /// <param name="content">Content, must be a string.</param>
+        /// <param name="separator">Char which separates the content.</param>
+        public Tokenizer(string content, char separator, TokenizerFlags flags = TokenizerFlags.None) => _Array = content.Split(separator, (StringSplitOptions)flags);
+
+        /// <summary>
+        /// Initialize a new Tokenizer class.
+        /// </summary>
+        /// <param name="content">Content, must be a string.</param>
+        /// <param name="separator">String which separates the content.</param>
+        public Tokenizer(string content, string separator, TokenizerFlags flags = TokenizerFlags.None) => _Array = content.Split(separator, (StringSplitOptions)flags);
 
         /// <summary>
         /// Return the value stored into the specified index.
@@ -24,6 +55,7 @@ namespace Sharp.Tokenizer
                 return _Array.GetValue(index);
             }
         }
+
 
         /// <summary>
         /// Return the size of this tokenizer.
