@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "236f3e0f-9cc7-48d4-b5ed-a9f710957eb2": {
+      "ProjectGuid": "236f3e0f-9cc7-48d4-b5ed-a9f710957eb2",
+      "DisplayName": "Tokenizer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

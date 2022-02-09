@@ -9,3 +9,4 @@ E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Token
 E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.dll
 E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\ref\Tokenizer.dll
 E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.pdb
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.csproj.AssemblyReference.cache

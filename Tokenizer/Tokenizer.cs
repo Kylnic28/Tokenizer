@@ -1,4 +1,7 @@
-﻿namespace Tokenizer
+﻿using System.Collections;
+using System.Collections.Generic;
+
+namespace Sharp.Tokenizer
 {
     public class Tokenizer
     {
@@ -23,12 +26,6 @@
         }
 
         /// <summary>
-        /// Convert this tokenizer into a enumerable.
-        /// </summary>
-        /// <returns>A dynamic enumerable.</returns>
-        public IEnumerable<dynamic> ToEnumerable() => _Array.OfType<object>().Select(o => o);
-
-        /// <summary>
         /// Return the size of this tokenizer.
         /// </summary>
         public int Length => _Array.Length;
@@ -37,20 +34,6 @@
         /// Check if this tokenizer is empty or not. 
         /// </summary>
         public bool IsEmpty => Length < 0;
-
-        /// <summary>
-        /// Print the unformatted data.
-        /// </summary>
-        /// <returns>Unformatted data.</returns>
-        public override string ToString()
-        {
-            string unformattedData = string.Empty;
-
-            foreach (var data in ToEnumerable().ToArray())
-                unformattedData += data;
-
-            return unformattedData;
-        }
     }
 
 }
