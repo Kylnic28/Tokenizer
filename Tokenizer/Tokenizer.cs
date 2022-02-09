@@ -1,6 +1,5 @@
 ﻿namespace Tokenizer
 {
-
     public class Tokenizer
     {
         private Array _Array { get; init; }
@@ -15,12 +14,14 @@
         {
             get
             {
-                if (index < 0 || index > Size)
+                if (index < 0 || index > Length)
                     throw new IndexOutOfRangeException($"Index {index} is out of range. Size of this tokenizer is {Size}!");
 
+       
                 return _Array.GetValue(index);
             }
         }
+
 
 
         /// <summary>
@@ -29,16 +30,16 @@
         /// <returns>A dynamic enumerable.</returns>
         public IEnumerable<dynamic> ToEnumerable() => _Array.OfType<object>().Select(o => o);
 
-
         /// <summary>
         /// Return the size of this tokenizer.
         /// </summary>
-        public int Size => _Array.Length;
+        public int Length => _Array.Length;
+       
 
         /// <summary>
         /// Check if this tokenizer is empty or not. 
         /// </summary>
-        public bool IsEmpty => Size < 0;
+        public bool IsEmpty => Length < 0;
 
         /// <summary>
         /// Print the unformatted data.

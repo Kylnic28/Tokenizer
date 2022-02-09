@@ -1,0 +1,11 @@
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\bin\Release\net6.0\Tokenizer.deps.json
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\bin\Release\net6.0\Tokenizer.dll
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\bin\Release\net6.0\ref\Tokenizer.dll
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\bin\Release\net6.0\Tokenizer.pdb
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.AssemblyInfoInputs.cache
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.AssemblyInfo.cs
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.csproj.CoreCompileInputs.cache
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.dll
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\ref\Tokenizer.dll
+E:\Kylian Nicolet\kDrive\Divers\Dev\Tokenizer\Tokenizer\obj\Release\net6.0\Tokenizer.pdb
